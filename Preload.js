@@ -24,13 +24,18 @@ SpaceMiner.Preload.prototype = {
     this.load.audio('explosion', 'assets/audio/explosion.ogg');
 
     this.load.spritesheet('terrain_rock', 'assets/images/terrain-rock-32.png', 32, 32);
-    this.load.spritesheet('rover', 'assets/images/rover-32.png', 32, 32)
+    this.load.spritesheet('Rover', 'assets/images/rover-32.png', 32, 32);
+    this.load.spritesheet('Miner', 'assets/images/miner-16.png', 8, 16);
+
     this.load.image('rover-halo-v', 'assets/images/rover-halo-48-v.png', 48, 1)
     this.load.image('rover-halo-l', 'assets/images/rover-halo-24-l.png', 1, 24)
     this.load.image('rover-halo-r', 'assets/images/rover-halo-24-r.png', 1, 24)
     this.load.image('rover-halo-u', 'assets/images/rover-halo-24-u.png', 24, 1)
     this.load.image('rover-halo-d', 'assets/images/rover-halo-24-d.png', 24, 1)
     this.load.image('outpost', 'assets/images/base-doodle-02.png')
+    this.load.spritesheet('construction-module', 'assets/images/construction-module-16.png', 16, 16);
+    this.load.spritesheet('crate', 'assets/images/crate-16.png', 16, 16);
+    this.load.spritesheet('loose-ore', 'assets/images/loose-ore-16.png', 16, 16)
   },
 
   create: function() {

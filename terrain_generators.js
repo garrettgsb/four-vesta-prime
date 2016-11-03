@@ -98,7 +98,6 @@ function hillAlgorithm() {
   }
 
   for (var i = 0; i < length; i++) {
-    console.log(terrain[i].length);
     while (terrain[i].length < depth) {
       terrain[i].unshift(0);
     }
